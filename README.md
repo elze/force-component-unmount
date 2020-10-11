@@ -1,0 +1,1 @@
+This application is for demonstrating component mounting and unmounting. I wrote it for Women Who Code ATX React.js meetup. The intention is to show how the class component MountableAlert can be turned into a functional component with hooks.

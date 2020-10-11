@@ -1,0 +1,26 @@
+module.exports = (req, res) => {
+    res.send([
+	{"id": 0, "weather": "sunny", rainchance: "0%", temperature: "69", },
+	{"id": 1, "weather": "partly cloudy", rainchance: "5%", temperature: "68", },
+	{"id": 2, "weather": "cloudy", rainchance: "10%", temperature: "67",},
+	{"id": 3, "weather": "cloudy", rainchance: "15%", temperature: "67",},
+	{"id": 4, "weather": "cloudy", rainchance: "20%", temperature: "67",},
+	{"id": 5, "weather": "overcast", rainchance: "25%", temperature: "66"},
+	{"id": 6, "weather": "overcast", rainchance: "30%", temperature: "66"},
+	{"id": 7, "weather": "overcast", rainchance: "35%", temperature: "66"},
+	{"id": 8, "weather": "heavy clouds", rainchance: "35%", temperature: "66"},
+	{"id": 9, "weather": "heavy clouds", rainchance: "40%", temperature: "66"},
+	{"id": 10, "weather": "heavy clouds", rainchance: "45%", temperature: "66"},
+	{"id": 11, "weather": "drizzly", rainchance: "50%", temperature: "65"},
+	{"id": 12, "weather": "drizzly", rainchance: "55%", temperature: "65"},
+	{"id": 13, "weather": "drizzly", rainchance: "60%", temperature: "65"},
+	{"id": 14, "weather": "light rain", rainchance: "65%", temperature: "64"},
+	{"id": 15, "weather": "light rain", rainchance: "70%", temperature: "64"},
+	{"id": 16, "weather": "light rain", rainchance: "75%", temperature: "64"},
+	{"id": 17, "weather": "rain", rainchance: "80%", temperature: "63"},
+	{"id": 18, "weather": "rain", rainchance: "85%", temperature: "63"},
+	{"id": 19, "weather": "rain", rainchance: "90%", temperature: "63"},
+	{"id": 20, "weather": "heavy rain", rainchance: "95%", temperature: "62"},
+	{"id": 21, "weather": "heavy rain", rainchance: "100%", temperature: "62"},
+	  ]);
+}
