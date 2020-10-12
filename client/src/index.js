@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { MountableAlert } from './App';
+import { AlertAsClass } from './AlertAsClass';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -12,7 +12,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ReactDOM.render(
-    <MountableAlert />,
+    <AlertAsClass />,
   document.getElementById('myButton')
   );
 
