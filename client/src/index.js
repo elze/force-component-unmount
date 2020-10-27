@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { AlertAsClass } from './AlertAsClass';
+import { AlertFunctional } from './AlertFunctional';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -12,7 +13,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ReactDOM.render(
-    <AlertAsClass />,
+    <AlertFunctional />,
   document.getElementById('myButton')
   );
 
